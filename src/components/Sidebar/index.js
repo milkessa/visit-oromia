@@ -10,7 +10,7 @@ import {
   sideBtnWrap,
 } from "./SidebarElements";
 
-const Sidebar = (isOpen, toggle) => {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -18,10 +18,18 @@ const Sidebar = (isOpen, toggle) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='investment'>Investment</SidebarLink>
-          <SidebarLink to='destinations'>Destinations</SidebarLink>
-          <SidebarLink to='hotels'>Hotels</SidebarLink>
-          <SidebarLink to='products'>products</SidebarLink>
+          <SidebarLink to='investment' onClick={toggle}>
+            Investment
+          </SidebarLink>
+          <SidebarLink to='destinations' onClick={toggle}>
+            Destinations
+          </SidebarLink>
+          <SidebarLink to='hotels' onClick={toggle}>
+            Hotels
+          </SidebarLink>
+          <SidebarLink to='products' onClick={toggle}>
+            products
+          </SidebarLink>
         </SidebarMenu>
         <sideBtnWrap>
           <SidebarRoute to='/contact'>Contact</SidebarRoute>
