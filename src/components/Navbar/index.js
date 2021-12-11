@@ -23,6 +23,18 @@ const Navbar = () => {
             <NavItem>
               <NavLinks to='investiment'>Investiment</NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to='destinations'>Destinations</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='hotels'>Hotels</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='products'>Products</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='contact'>Contact</NavLinks>
+            </NavItem>
           </NavMenu>
         </NavbarContainer>
       </Nav>
