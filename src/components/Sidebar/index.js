@@ -7,6 +7,7 @@ import {
   SidebarRoute,
   SidebarWrapper,
   SidebarMenu,
+  sideBtnWrap,
 } from "./SidebarElements";
 
 const Sidebar = () => {
@@ -22,6 +23,9 @@ const Sidebar = () => {
           <SidebarLink to='hotels'>Hotels</SidebarLink>
           <SidebarLink to='products'>products</SidebarLink>
         </SidebarMenu>
+        <sideBtnWrap>
+          <SidebarRoute to='/contact'>Contact</SidebarRoute>
+        </sideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

@@ -83,10 +83,6 @@ export const NavLinks = styled(LinkS)`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-
-  @media screen and(max-width: 700px) {
-    display: none;
-  }
 `;
 
 export const NavBtnLink = styled(LinkR)`
@@ -101,6 +97,10 @@ export const NavBtnLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
 
   &:hover {
     transition: all 0.2s ease-in-out;
