@@ -23,7 +23,7 @@ const Navbar = () => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='investiment'>Investiment</NavLinks>
+              <NavLinks to='investment'>Investment</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='destinations'>Destinations</NavLinks>

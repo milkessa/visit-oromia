@@ -7,6 +7,14 @@ const Sidebar = () => {
       <Icon>
         <CloseIcon />
       </Icon>
+      <SidebarWrapper>
+        <SidebarMenu>
+          <SidebarLink to='investment'>Investment</SidebarLink>
+          <SidebarLink to='destinations'>Destinations</SidebarLink>
+          <SidebarLink to='hotels'>Hotels</SidebarLink>
+          <SidebarLink to='products'>products</SidebarLink>
+        </SidebarMenu>
+      </SidebarWrapper>
     </SidebarContainer>
   );
 };
