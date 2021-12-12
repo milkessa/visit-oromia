@@ -30,10 +30,10 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to='products' onClick={toggle}>
             products
           </SidebarLink>
+          <sideBtnWrap>
+            <SidebarRoute to='/contact'>Contact</SidebarRoute>
+          </sideBtnWrap>
         </SidebarMenu>
-        <sideBtnWrap>
-          <SidebarRoute to='/contact'>Contact</SidebarRoute>
-        </sideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

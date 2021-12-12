@@ -47,6 +47,7 @@ export const SidebarWrapper = styled.div`
 
 export const SidebarLink = styled(LinkS)`
   display: flex;
+  align-items: center;
   justify-content: center;
   font-size: 1.5rem;
   text-decoration: none;
@@ -65,10 +66,12 @@ export const sideBtnWrap = styled.div`
   justify-content: center;
 `;
 export const SidebarRoute = styled(LinkR)`
-  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
   background: #01bf71;
   white-space: nowrap;
-  padding: 16px 64px;
+  padding: 10px 44px;
   color: #010606;
   font-size: 16px;
   outline: none;

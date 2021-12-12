@@ -53,6 +53,7 @@ export const MobileIcon = styled.div`
     color: #fff;
   }
 `;
+
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
@@ -65,6 +66,7 @@ export const NavMenu = styled.ul`
     display: none;
   }
 `;
+
 export const NavItem = styled.li`
   height: 80px;
   cursor: pointer;
